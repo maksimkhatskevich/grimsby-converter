@@ -117,12 +117,12 @@ Grimsby Converter работает **полностью на вашем комп
 
 ---
 
-## Семейство Grimsby
+## Программы Grimsby
 
 <table>
   <tr>
     <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.ru.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>Офлайн-плеер для скачанной музыки и клипов</sub></td>
-    <td align="center" width="33%"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b><br><sub>Вы здесь</sub></td>
+    <td align="center" width="33%"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b><br><img src="screenshots/family/here-ru.svg" alt="Вы здесь"></td>
     <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ru.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Пакетный редактор тегов: альбомы, обложки, имена файлов</sub></td>
   </tr>
 </table>
