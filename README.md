@@ -16,6 +16,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-converter/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-converter?label=version&color=AC3F3F" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-AC3F3F" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/free-no%20ads-111314" alt="Free, no ads">
+  <a href="https://www.virustotal.com/gui/file/cedcbb0af1dcbae43e6d6f878c1dcf82fe14c66bdd7b8cebf78af7fe7eeea2ec"><img src="https://img.shields.io/badge/VirusTotal-0%2F66-2E7D32" alt="VirusTotal 0/66"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-converter/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-converter/total?label=downloads&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -103,6 +104,7 @@ Pick the target format and quality per group: say, video to MP4, music to MP3 32
 1. Open the **[latest release](https://github.com/maksimkhatskevich/grimsby-converter/releases/latest)** page and download the installer `.exe`.
 2. Run it. Windows may show a blue "Windows protected your PC" window — that's a normal warning for apps
    without a paid code-signing certificate. Click **More info → Run anyway**.
+   The installer has been checked on VirusTotal: [0 of 66 antivirus engines flag it](https://www.virustotal.com/gui/file/cedcbb0af1dcbae43e6d6f878c1dcf82fe14c66bdd7b8cebf78af7fe7eeea2ec) (version 1.0.0).
 3. Drop your files into the window. That's it.
 
 **Requirements:** Windows 10 or 11 (64-bit).

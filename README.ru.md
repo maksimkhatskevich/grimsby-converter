@@ -16,6 +16,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-converter/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-converter?label=версия&color=AC3F3F" alt="Версия"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-AC3F3F" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/бесплатно-без%20рекламы-111314" alt="Бесплатно, без рекламы">
+  <a href="https://www.virustotal.com/gui/file/cedcbb0af1dcbae43e6d6f878c1dcf82fe14c66bdd7b8cebf78af7fe7eeea2ec"><img src="https://img.shields.io/badge/VirusTotal-0%2F66-2E7D32" alt="VirusTotal 0/66"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-converter/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-converter/total?label=скачиваний&color=858A8D" alt="Скачиваний"></a>
 </p>
 
@@ -103,6 +104,7 @@ Grimsby разложит их по группам и покажет, сколь�
 1. Откройте страницу **[последней версии](https://github.com/maksimkhatskevich/grimsby-converter/releases/latest)** и скачайте установщик `.exe`.
 2. Запустите его. Windows может показать синее окно «Система Windows защитила ваш компьютер» — это обычное
    предупреждение для программ без платного сертификата подписи. Нажмите **Подробнее → Выполнить в любом случае**.
+   Установщик проверен на VirusTotal: [ни один из 66 антивирусов ничего не нашёл](https://www.virustotal.com/gui/file/cedcbb0af1dcbae43e6d6f878c1dcf82fe14c66bdd7b8cebf78af7fe7eeea2ec) (версия 1.0.0).
 3. Перетащите файлы в окно. Готово.
 
 **Требования:** Windows 10 или 11 (64 бит).
