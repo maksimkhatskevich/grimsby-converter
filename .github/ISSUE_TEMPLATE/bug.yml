@@ -6,8 +6,8 @@ body:
     id: version
     attributes:
       label: Версия Grimsby Converter
-      description: «Настройки» — версия внизу окна
-      placeholder: например, 0.1.0
+      description: «Настройки» — версия под названием программы
+      placeholder: например, 1.1.0
     validations:
       required: true
   - type: textarea
