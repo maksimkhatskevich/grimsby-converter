@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-converter/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-converter?label=%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3&color=C24A4A" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-C24A4A" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E7%84%A1%E6%96%99-%E5%BA%83%E5%91%8A%E3%81%AA%E3%81%97-111314" alt="Free">
-  <a href="https://www.virustotal.com/gui/file/caeade773641b7b2a15fcc427afa02305a45262004d60aade01427700477fd3b"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/c7b408d3046f7d0191755085186d9cc0c11226ff40cbc94fcf75808a2c1c976c"><img src="https://img.shields.io/badge/VirusTotal-1%2F60-858A8D" alt="VirusTotal 1/60"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-converter/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-converter/total?label=%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -75,6 +75,12 @@ FLAC のアルバムをスマホ用に MP3 へ、iPhone の MOV を MP4 へ、HE
 - **写真：** iPhone の HEIC、Photoshop の PSD、EXR、HDR、AVIF、SVG もすべて開いて一般的な形式に保存。PDF にも。
 - **文書・表計算・プレゼン** → PDF、DOCX、XLSX、EPUB など。Pages、Numbers、Keynote のファイルも開けます。
 
+### 🔍 写真の高画質化 ×2・×4・×6
+
+写真をディテールを補いながら 2 倍、4 倍、6 倍に拡大できます。パソコンの中で、インターネットなしで動きます。写真用とイラスト用のモードがあります。Vulkan 対応のグラフィックカードが必要で、ない場合や処理できなかった場合は通常の方法で拡大し、ファイルの横に表示します。新しいファイル名には「写真 x4」のような接頭辞が付きます。
+
+![写真の高画質化 ×4](screenshots/ja/upscale.jpg)
+
 ### ⚡ 速くて安全
 
 - 複数のファイルを同時に変換。プロセッサーの性能に合わせて並列処理します。
@@ -90,11 +96,15 @@ FLAC のアルバムをスマホ用に MP3 へ、iPhone の MOV を MP4 へ、HE
 
 🌍 **9 言語：** 英語、ロシア語、スペイン語、ポルトガル語、ドイツ語、フランス語、中国語、日本語、韓国語。設定で切り替えるとすぐに反映されます。
 
+ライトテーマもワンクリック。上の太陽ボタンです。
+
+![ライトテーマ](screenshots/ja/queue-light.jpg)
+
 ![設定](screenshots/ja/settings.jpg)
 
 ### 🧩 Grimsby のアプリも
 
-Grimsby Player と Grimsby Tagger の説明とスクリーンショット。アプリから直接ダウンロードしてインストールできます。
+Grimsby Player、Grimsby Tagger、Grimsby Prompter、Grimsby Helper の説明とスクリーンショット。アプリから直接ダウンロードしてインストールできます。
 
 ![Grimsby のアプリとお問い合わせ](screenshots/ja/apps.jpg)
 
@@ -121,7 +131,6 @@ Grimsby Player と Grimsby Tagger の説明とスクリーンショット。ア�
 
 1. **[最新バージョン](https://github.com/maksimkhatskevich/grimsby-converter/releases/latest)** のページを開き、インストーラー `.exe` をダウンロードします。
 2. 実行します。Windows に青い「Windows によって PC が保護されました」画面が出ることがありますが、有料の署名証明書がないアプリでは普通の警告です。**詳細情報 → 実行** をクリックしてください。
-   インストーラーは VirusTotal で確認済みです：[67 のウイルス対策エンジンすべてで検出なし](https://www.virustotal.com/gui/file/caeade773641b7b2a15fcc427afa02305a45262004d60aade01427700477fd3b)（バージョン 1.1.0）。
 3. ファイルを画面にドラッグするだけ。これで完了です。
 
 **動作環境：** Windows 10 / 11（64 ビット）。
@@ -138,9 +147,11 @@ Grimsby Converter は **すべてあなたのパソコンの中で** 動きま�
 
 <table>
   <tr>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.ja.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>ダウンロードした音楽と MV のためのオフラインプレーヤー</sub></td>
-    <td align="center" width="33%"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b><br><img src="screenshots/family/here-ja.svg" alt="このページ"></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ja.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>タグ一括編集：アルバム、カバー、ファイル名</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.ja.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>ダウンロードした音楽と MV のためのオフラインプレーヤー</sub></td>
+    <td align="center" width="20%"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b><br><img src="screenshots/family/here-ja.svg" alt=""></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ja.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>タグ一括編集：アルバム、カバー、ファイル名</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ja.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>声についてくる、シンプルなプロンプター</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.ja.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>PC の状態がひと目でわかる：プロセス、温度、クリーンアップ</sub></td>
   </tr>
 </table>
 

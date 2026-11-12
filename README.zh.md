@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-converter/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-converter?label=%E7%89%88%E6%9C%AC&color=C24A4A" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-C24A4A" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%E5%85%8D%E8%B4%B9-%E6%97%A0%E5%B9%BF%E5%91%8A-111314" alt="Free">
-  <a href="https://www.virustotal.com/gui/file/caeade773641b7b2a15fcc427afa02305a45262004d60aade01427700477fd3b"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/c7b408d3046f7d0191755085186d9cc0c11226ff40cbc94fcf75808a2c1c976c"><img src="https://img.shields.io/badge/VirusTotal-1%2F60-858A8D" alt="VirusTotal 1/60"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-converter/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-converter/total?label=%E4%B8%8B%E8%BD%BD%E9%87%8F&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -75,6 +75,12 @@
 - **照片：** iPhone 的 HEIC、Photoshop 的 PSD、EXR、HDR、AVIF、SVG——都能打开并保存为常用格式，甚至 PDF。
 - **文档、表格、演示文稿** → PDF、DOCX、XLSX、EPUB 等；也能打开 Pages、Numbers 和 Keynote 文件。
 
+### 🔍 照片增强 ×2、×4、×6
+
+在你的电脑上离线将照片放大 2、4 或 6 倍，同时恢复细节。提供照片和插画两种模式。需要支持 Vulkan 的显卡；没有显卡或处理失败时，会用普通方式放大，并在文件旁标注。新文件名会带上前缀，例如“照片 x4”。
+
+![照片增强 ×4](screenshots/zh/upscale.jpg)
+
 ### ⚡ 快速又安全
 
 - 多个文件同时转换——处理器能承受多少就转多少。
@@ -90,11 +96,15 @@
 
 🌍 **9 种语言：** 英语、俄语、西班牙语、葡萄牙语、德语、法语、中文、日语和韩语——在设置中切换，立即生效。
 
+浅色主题一键切换——顶部的太阳按钮。
+
+![浅色主题](screenshots/zh/queue-light.jpg)
+
 ![设置](screenshots/zh/settings.jpg)
 
 ### 🧩 内置 Grimsby 应用
 
-Grimsby Player 和 Grimsby Tagger 的介绍与截图——可直接在应用内下载安装。
+Grimsby Player、Grimsby Tagger、Grimsby Prompter 和 Grimsby Helper 的介绍与截图——可直接在应用内下载安装。
 
 ![Grimsby 应用与反馈](screenshots/zh/apps.jpg)
 
@@ -121,7 +131,6 @@ Grimsby Player 和 Grimsby Tagger 的介绍与截图——可直接在应用内�
 
 1. 打开 **[最新版本](https://github.com/maksimkhatskevich/grimsby-converter/releases/latest)** 页面，下载安装程序 `.exe`。
 2. 运行它。Windows 可能会显示蓝色的“Windows 已保护你的电脑”窗口——这是没有付费代码签名证书的程序的正常提示。点击 **更多信息 → 仍要运行**。
-   安装程序已在 VirusTotal 上检测：[67 款杀毒引擎均未发现问题](https://www.virustotal.com/gui/file/caeade773641b7b2a15fcc427afa02305a45262004d60aade01427700477fd3b)（1.1.0 版）。
 3. 把文件拖进窗口，就这么简单。
 
 **系统要求：** Windows 10 或 11（64 位）。
@@ -138,9 +147,11 @@ Grimsby Converter **完全在你的电脑上运行**。不会上传任何文件�
 
 <table>
   <tr>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.zh.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>为你下载的音乐和 MV 打造的离线播放器</sub></td>
-    <td align="center" width="33%"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b><br><img src="screenshots/family/here-zh.svg" alt="当前页面"></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.zh.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>批量标签编辑：专辑、封面、文件名</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.zh.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>为你下载的音乐和 MV 打造的离线播放器</sub></td>
+    <td align="center" width="20%"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b><br><img src="screenshots/family/here-zh.svg" alt=""></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.zh.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>批量标签编辑：专辑、封面、文件名</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.zh.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>会跟随你声音的简单提词器</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.zh.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>电脑状态一目了然：进程、温度、清理</sub></td>
   </tr>
 </table>
 

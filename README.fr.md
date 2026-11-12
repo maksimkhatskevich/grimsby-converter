@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-converter/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-converter?label=version&color=C24A4A" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-C24A4A" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/gratuit-sans%20pub-111314" alt="Free">
-  <a href="https://www.virustotal.com/gui/file/caeade773641b7b2a15fcc427afa02305a45262004d60aade01427700477fd3b"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/c7b408d3046f7d0191755085186d9cc0c11226ff40cbc94fcf75808a2c1c976c"><img src="https://img.shields.io/badge/VirusTotal-1%2F60-858A8D" alt="VirusTotal 1/60"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-converter/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-converter/total?label=t%C3%A9l%C3%A9chargements&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -75,6 +75,12 @@ Choisissez le format et la qualité par groupe : par exemple, la vidéo en MP4, 
 - **Photos :** HEIC de l’iPhone, PSD de Photoshop, EXR, HDR, AVIF, SVG — tout s’ouvre et s’enregistre dans les formats courants, même en PDF.
 - **Documents, tableurs, présentations** → PDF, DOCX, XLSX, EPUB et plus ; les fichiers Pages, Numbers et Keynote s’ouvrent aussi.
 
+### 🔍 Amélioration des photos ×2, ×4, ×6
+
+Agrandissez les photos 2, 4 ou 6 fois en restaurant les détails — directement sur votre ordinateur, sans internet. Il y a des modes pour les photos et pour les dessins. Il faut une carte graphique compatible Vulkan ; sans elle, ou si elle n’y arrive pas, la photo est agrandie de façon classique et une mention apparaît à côté du fichier. Le nouveau fichier reçoit un préfixe dans son nom, comme « photo x4 ».
+
+![Amélioration des photos ×4](screenshots/fr/upscale.jpg)
+
 ### ⚡ Rapide et sûr
 
 - Plusieurs fichiers à la fois — autant que votre processeur le permet.
@@ -90,11 +96,15 @@ Langue, documents, mises à jour (prévenir seulement, automatiquement ou ne pas
 
 🌍 **9 langues :** anglais, russe, espagnol, portugais, allemand, français, chinois, japonais et coréen — à changer dans les Réglages, effet immédiat.
 
+Le thème clair est à un clic — le bouton soleil en haut.
+
+![Thème clair](screenshots/fr/queue-light.jpg)
+
 ![Réglages](screenshots/fr/settings.jpg)
 
 ### 🧩 Les applis Grimsby intégrées
 
-Grimsby Player et Grimsby Tagger avec description et captures — à télécharger et installer directement depuis l’appli.
+Grimsby Player, Grimsby Tagger, Grimsby Prompter et Grimsby Helper avec description et captures — à télécharger et installer directement depuis l’appli.
 
 ![Les applis Grimsby et contact](screenshots/fr/apps.jpg)
 
@@ -121,7 +131,6 @@ Grimsby Player et Grimsby Tagger avec description et captures — à télécharg
 
 1. Ouvrez la page de la **[dernière version](https://github.com/maksimkhatskevich/grimsby-converter/releases/latest)** et téléchargez l’installeur `.exe`.
 2. Lancez-le. Windows peut afficher une fenêtre bleue « Windows a protégé votre ordinateur » : c’est un avertissement normal pour les logiciels sans certificat de signature payant. Cliquez sur **Informations complémentaires → Exécuter quand même**.
-   L’installeur a été vérifié sur VirusTotal : [aucun des 67 antivirus ne détecte quoi que ce soit](https://www.virustotal.com/gui/file/caeade773641b7b2a15fcc427afa02305a45262004d60aade01427700477fd3b) (version 1.1.0).
 3. Déposez vos fichiers dans la fenêtre. C’est tout.
 
 **Configuration requise :** Windows 10 ou 11 (64 bits).
@@ -138,9 +147,11 @@ Grimsby Converter fonctionne **entièrement sur votre ordinateur**. Les fichiers
 
 <table>
   <tr>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.fr.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>Lecteur hors ligne pour votre musique et vos clips téléchargés</sub></td>
-    <td align="center" width="33%"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b><br><img src="screenshots/family/here-fr.svg" alt="Vous êtes ici"></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.fr.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Éditeur de tags par lots : albums, pochettes, noms de fichiers</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.fr.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>Lecteur hors ligne pour votre musique et vos clips téléchargés</sub></td>
+    <td align="center" width="20%"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b><br><img src="screenshots/family/here-fr.svg" alt=""></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.fr.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>Éditeur de tags par lots : albums, pochettes, noms de fichiers</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.fr.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>Un téléprompteur simple qui suit votre voix</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.fr.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>L’état de votre PC en un coup d’œil : processus, températures, nettoyage</sub></td>
   </tr>
 </table>
 

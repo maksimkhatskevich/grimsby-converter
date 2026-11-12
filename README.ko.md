@@ -23,7 +23,7 @@
   <a href="https://github.com/maksimkhatskevich/grimsby-converter/releases/latest"><img src="https://img.shields.io/github/v/release/maksimkhatskevich/grimsby-converter?label=%EB%B2%84%EC%A0%84&color=C24A4A" alt="Version"></a>
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-C24A4A" alt="Windows 10/11">
   <img src="https://img.shields.io/badge/%EB%AC%B4%EB%A3%8C-%EA%B4%91%EA%B3%A0%20%EC%97%86%EC%9D%8C-111314" alt="Free">
-  <a href="https://www.virustotal.com/gui/file/caeade773641b7b2a15fcc427afa02305a45262004d60aade01427700477fd3b"><img src="https://img.shields.io/badge/VirusTotal-0%2F67-2E7D32" alt="VirusTotal 0/67"></a>
+  <a href="https://www.virustotal.com/gui/file/c7b408d3046f7d0191755085186d9cc0c11226ff40cbc94fcf75808a2c1c976c"><img src="https://img.shields.io/badge/VirusTotal-1%2F60-858A8D" alt="VirusTotal 1/60"></a>
   <a href="https://github.com/maksimkhatskevich/grimsby-converter/releases"><img src="https://img.shields.io/github/downloads/maksimkhatskevich/grimsby-converter/total?label=%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C&color=858A8D" alt="Downloads"></a>
 </p>
 
@@ -75,6 +75,12 @@ FLAC 앨범을 휴대폰용 MP3로, 아이폰 MOV를 MP4로, HEIC 사진을 JPG�
 - **사진:** 아이폰 HEIC, 포토샵 PSD, EXR, HDR, AVIF, SVG까지 모두 열어 익숙한 형식으로 저장합니다. PDF로도요.
 - **문서, 스프레드시트, 프레젠테이션** → PDF, DOCX, XLSX, EPUB 등. Pages, Numbers, Keynote 파일도 열립니다.
 
+### 🔍 사진 화질 개선 ×2, ×4, ×6
+
+사진을 디테일을 살리며 2배, 4배, 6배로 키웁니다. 내 컴퓨터에서 인터넷 없이 동작합니다. 사진용과 그림용 모드가 있습니다. Vulkan을 지원하는 그래픽카드가 필요하며, 없거나 처리하지 못하면 일반 방식으로 확대하고 파일 옆에 표시합니다. 새 파일 이름에는 “사진 x4”처럼 접두어가 붙습니다.
+
+![사진 화질 개선 ×4](screenshots/ko/upscale.jpg)
+
 ### ⚡ 빠르고 안전하게
 
 - 여러 파일을 동시에 변환합니다 — 프로세서가 감당하는 만큼.
@@ -90,11 +96,15 @@ FLAC 앨범을 휴대폰용 MP3로, 아이폰 MOV를 MP4로, HEIC 사진을 JPG�
 
 🌍 **9개 언어:** 영어, 러시아어, 스페인어, 포르투갈어, 독일어, 프랑스어, 중국어, 일본어, 한국어 — 설정에서 바꾸면 바로 적용됩니다.
 
+라이트 테마도 클릭 한 번, 위쪽의 해 모양 버튼입니다.
+
+![라이트 테마](screenshots/ko/queue-light.jpg)
+
 ![설정](screenshots/ko/settings.jpg)
 
 ### 🧩 Grimsby 앱도 함께
 
-Grimsby Player와 Grimsby Tagger의 소개와 스크린샷 — 앱에서 바로 내려받아 설치할 수 있습니다.
+Grimsby Player, Grimsby Tagger, Grimsby Prompter, Grimsby Helper의 소개와 스크린샷 — 앱에서 바로 내려받아 설치할 수 있습니다.
 
 ![Grimsby 앱과 문의](screenshots/ko/apps.jpg)
 
@@ -121,7 +131,6 @@ Grimsby Player와 Grimsby Tagger의 소개와 스크린샷 — 앱에서 바로 
 
 1. **[최신 버전](https://github.com/maksimkhatskevich/grimsby-converter/releases/latest)** 페이지를 열고 설치 프로그램 `.exe`를 다운로드하세요.
 2. 실행하세요. Windows가 파란색 "Windows의 PC 보호" 창을 띄울 수 있는데, 유료 코드 서명 인증서가 없는 프로그램에 대한 일반적인 경고입니다. **추가 정보 → 실행**을 누르세요.
-   설치 프로그램은 VirusTotal에서 검사했습니다: [백신 엔진 67개 모두 이상 없음](https://www.virustotal.com/gui/file/caeade773641b7b2a15fcc427afa02305a45262004d60aade01427700477fd3b) (버전 1.1.0).
 3. 파일을 창에 끌어다 놓으세요. 끝입니다.
 
 **요구 사항:** Windows 10 또는 11(64비트).
@@ -138,9 +147,11 @@ Grimsby Converter는 **모두 내 컴퓨터 안에서** 동작합니다. 파일�
 
 <table>
   <tr>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.ko.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>다운로드한 음악과 뮤직비디오를 위한 오프라인 플레이어</sub></td>
-    <td align="center" width="33%"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b><br><img src="screenshots/family/here-ko.svg" alt="현재 페이지"></td>
-    <td align="center" width="33%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ko.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>태그 일괄 편집: 앨범, 커버, 파일 이름</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-releases/blob/main/README.ko.md"><img src="screenshots/family/player.png" width="56" alt=""><br><b>Grimsby Player</b></a><br><sub>다운로드한 음악과 뮤직비디오를 위한 오프라인 플레이어</sub></td>
+    <td align="center" width="20%"><img src="screenshots/family/converter.png" width="56" alt=""><br><b>Grimsby Converter</b><br><img src="screenshots/family/here-ko.svg" alt=""></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-tagger/blob/main/README.ko.md"><img src="screenshots/family/tagger.png" width="56" alt=""><br><b>Grimsby Tagger</b></a><br><sub>태그 일괄 편집: 앨범, 커버, 파일 이름</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-prompter/blob/main/README.ko.md"><img src="screenshots/family/prompter.png" width="56" alt=""><br><b>Grimsby Prompter</b></a><br><sub>목소리를 따라가는 간단한 프롬프터</sub></td>
+    <td align="center" width="20%"><a href="https://github.com/maksimkhatskevich/grimsby-helper/blob/main/README.ko.md"><img src="screenshots/family/helper.png" width="56" alt=""><br><b>Grimsby Helper</b></a><br><sub>PC 상태를 한눈에: 프로세스, 온도, 정리</sub></td>
   </tr>
 </table>
 
